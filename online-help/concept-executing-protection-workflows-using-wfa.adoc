@@ -1,0 +1,14 @@
+---
+permalink: online-help/concept-executing-protection-workflows-using-wfa.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以将OnCommand Workflow Automation 与Unified Manager集成、以执行监控和管理保护关系的工作流。 
+---
+= 使用OnCommand Workflow Automation 执行保护工作流
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以将OnCommand Workflow Automation 与Unified Manager集成、以执行监控和管理保护关系的工作流。

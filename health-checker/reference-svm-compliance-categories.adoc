@@ -1,0 +1,107 @@
+---
+permalink: health-checker/reference-svm-compliance-categories.html 
+sidebar: sidebar 
+keywords: storage VM compliance 
+summary: '下表介绍了Unified Manager评估的Storage Virtual Machine \(SVM\)安全合规性标准、NetApp建议以及参数是否影响对SVM是否合规的整体判断。' 
+---
+= SVM 合规性类别
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表介绍了 Unified Manager 评估的 Storage Virtual Machine （ SVM ）安全合规性标准， NetApp 建议以及参数是否影响对 SVM 是否合规的整体判断。
+
+[cols="4*"]
+|===
+| 参数 | Description | 建议 | 影响 SVM 合规性 
+
+
+ a| 
+审核日志
+ a| 
+指示是否已启用审核日志记录。
+ a| 
+enabled
+ a| 
+是的。
+
+
+
+ a| 
+SSH 设置不安全
+ a| 
+指示SSH是否使用不安全的密码、例如以开头的密码 `cbc*`。
+ a| 
+否
+ a| 
+是的。
+
+
+
+ a| 
+登录横幅
+ a| 
+指示是否为访问系统上 SVM 的用户启用了登录横幅。
+ a| 
+enabled
+ a| 
+是的。
+
+
+
+ a| 
+LDAP 加密
+ a| 
+指示是否已启用 LDAP 加密。
+ a| 
+enabled
+ a| 
+否
+
+
+
+ a| 
+NTLM 身份验证
+ a| 
+指示是否已启用 NTLM 身份验证。
+ a| 
+enabled
+ a| 
+否
+
+
+
+ a| 
+LDAP 有效负载签名
+ a| 
+指示是否已启用 LDAP 有效负载签名。
+ a| 
+enabled
+ a| 
+否
+
+
+
+ a| 
+CHAP 设置
+ a| 
+指示是否已启用 CHAP 。
+ a| 
+enabled
+ a| 
+否
+
+
+
+ a| 
+Kerberos V5
+ a| 
+指示是启用还是禁用 Kerberos V5 身份验证。
+ a| 
+enabled
+ a| 
+否
+
+|===

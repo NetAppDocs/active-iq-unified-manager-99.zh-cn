@@ -1,0 +1,18 @@
+---
+permalink: online-help/reference-capacity-all-clusters-view.html 
+sidebar: sidebar 
+keywords:  
+summary: '" 容量：所有集群 " 视图可用于查看有关所有集群中存储容量和利用率的汇总信息。此信息有助于您了解可能的容量风险并采取适当措施重新平衡工作负载。' 
+---
+= 容量：所有集群视图
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+" 容量：所有集群 " 视图可用于查看有关所有集群中存储容量和利用率的汇总信息。此信息有助于您了解可能的容量风险并采取适当措施重新平衡工作负载。
+
+通过沿页面顶部排列的控件、您可以选择特定视图(运行状况、性能、容量等)、执行搜索以查找特定对象、创建并应用筛选器以缩小显示的数据列表范围、在页面上添加/删除列或对列重新排序、并将页面上的数据导出到 `.csv`， `.pdf`或 `.xlsx` 文件自定义页面后，您可以将结果保存为自定义视图，然后计划定期生成此数据的报告并通过电子邮件发送。
+
+请参见 xref:reference-cluster-capacity-fields.adoc[集群容量字段] 有关此页面上所有字段的说明、请参见。

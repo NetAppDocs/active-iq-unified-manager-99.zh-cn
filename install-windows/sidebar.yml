@@ -1,0 +1,55 @@
+---
+section: install-windows
+title: 在 Windows 系统上安装 Unified Manager
+entries:
+- title: Active IQ Unified Manager 简介
+  pdf-filename: Active IQ Unified Manager 简介(Windows系统)
+  url: "/install-windows/concept-introduction-to-unified-manager.html"
+  entries:
+  - title: Unified Manager 服务器的功能
+    url: "/install-windows/concept-what-the-unified-manager-server-does.html"
+  - title: Active IQ Unified Manager 产品文档
+    url: "/install-windows/reference-oncommand-unified-manager-product-documentation.html"
+  - title: 安装顺序概述
+    url: "/install-windows/concept-overview-of-the-installation-sequence-um.html"
+- title: Unified Manager 的安装要求
+  pdf-filename: 安装Unified Manager的要求(Windows系统)
+  url: "/install-windows/concept-requirements-for-installing-unified-manager.html"
+  entries:
+  - title: 虚拟基础架构和硬件系统要求
+    url: "/install-windows/concept-virtual-infrastructure-or-hardware-system-requirements.html"
+  - title: Windows 软件和安装要求
+    url: "/install-windows/reference-windows-software-and-installation-requirements.html"
+  - title: 支持的浏览器
+    url: "/install-windows/concept-browser-and-platform-requirements.html"
+  - title: 协议和端口要求
+    url: "/install-windows/reference-protocol-and-port-requirements.html"
+  - title: 正在完成工作表
+    url: "/install-windows/reference-completing-the-worksheet-um.html"
+- title: 安装，升级和删除 Unified Manager 软件
+  pdf-filename: 安装、升级和删除Unified Manager软件(Windows系统)
+  url: "/install-windows/concept-installing-upgrading-and-removing-unified-manager-software.html"
+  entries:
+  - title: 安装过程概述
+    url: "/install-windows/concept-overview-of-the-installation-process-on-windows.html"
+  - title: 在 Windows 上安装 Unified Manager
+    url: "/install-windows/concept-installing-unified-manager-win.html"
+    entries:
+    - title: 安装 Unified Manager
+      url: "/install-windows/task-installing-unified-manager-on-windows.html"
+    - title: 执行 Unified Manager 的无人参与安装
+      url: "/install-windows/task-unattended-installation-of-unified-manager.html"
+  - title: 更改 JBoss 密码
+    url: "/install-windows/task-changing-the-jboss-password-on-windows.html"
+  - title: 升级 Unified Manager
+    url: "/install-windows/task-upgrading-to-unified-manager-on-microsoft-windows.html"
+  - title: 升级第三方产品
+    pdf-filename: 升级第三方产品(Windows系统)
+    url: "/install-windows/concept-upgrading-third-party-products-on-windows-um.html"
+    entries:
+    - title: 升级 OpenJDK
+      url: "/install-windows/task-upgrading-openjdk-on-windows-ocum.html"
+  - title: 正在重新启动 Unified Manager
+    url: "/install-windows/task-restarting-unified-manager-win.html"
+  - title: 卸载 Unified Manager
+    url: "/install-windows/task-uninstalling-unified-manager-win.html"

@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-assign-performance-threshold-policy-page-opm.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以使用分配性能阈值策略页面为一个或多个存储对象分配性能阈值策略。 
+---
+= 分配性能阈值策略页面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用分配性能阈值策略页面为一个或多个存储对象分配性能阈值策略。
+
+策略列表仅包含对选定存储对象类型有效的策略。
+
+选择要应用于一个或多个对象的策略、然后单击*应用策略*。
+
+在某些情况下、尝试应用策略时可能会返回错误消息、例如、将组合策略应用于FlexGroup 卷时、第二个计数器包含节点或聚合对象。由于FlexGroup 卷可以分布在多个节点和聚合中、因此不允许执行此操作。

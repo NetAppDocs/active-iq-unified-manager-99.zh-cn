@@ -1,0 +1,113 @@
+---
+permalink: api-automation/concept-gateway-apis.html 
+sidebar: sidebar 
+keywords:  
+summary: 网关 API 具有使用 Active IQ Unified Manager 凭据运行 ONTAP REST API 和管理存储对象的优势。在 Unified Manager Web UI 中启用 API 网关功能后，可以使用这些 API 。 
+---
+= 通过代理访问访问 ONTAP API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+网关 API 具有使用 Active IQ Unified Manager 凭据运行 ONTAP REST API 和管理存储对象的优势。在 Unified Manager Web UI 中启用 API 网关功能后，可以使用这些 API 。
+
+Unified Manager REST API 仅支持在 Unified Manager 数据源（即 ONTAP 集群）上执行一组选择的操作。您可以通过 ONTAP API 使用其他功能。通过网关 API ， Unified Manager 可以成为一个直通接口，用于在 ONTAP 集群上执行所有 API 请求，而无需单独登录到每个数据中心集群。它作为一个管理点执行，用于在 Unified Manager 实例管理的 ONTAP 集群中运行 API 。通过 API 网关功能， Unified Manager 可以成为一个控制平面，您可以从该平面管理多个 ONTAP 集群，而无需单独登录到这些集群。通过网关 API ，您可以保持登录到 Unified Manager 的状态，并通过运行 ONTAP REST API 操作来管理 ONTAP 集群。
+
+[NOTE]
+====
+所有用户均可使用运行查询 `GET` 操作。应用程序管理员可以运行所有 ONTAP REST 操作。
+
+====
+网关充当一个代理，通过保持标头和正文请求的格式与 ONTAP API 中的格式相同来对 API 请求进行通道化。您可以使用 Unified Manager 凭据并执行特定操作来访问和管理 ONTAP 集群，而无需传递各个集群凭据。它会继续管理集群身份验证和集群管理，但会将 API 请求重定向到直接在特定集群上运行。API 返回的响应与直接从 ONTAP 执行的相应 ONTAP REST API 返回的响应相同。
+
+[cols="3*"]
+|===
+| HTTP 动词 | 路径（ URL ） | Description 
+
+
+ a| 
+`GET`
+ a| 
+`/gateways`
+ a| 
+此 GET 方法将检索 Unified Manager 所管理的支持 ONTAP REST 调用的所有集群的列表。您可以验证集群详细信息，并根据集群 UUID 或通用唯一标识符（ UUID ）选择运行其他方法。
+
+[NOTE]
+====
+网关 API 仅检索 ONTAP 9.5 或更高版本支持并通过 HTTPS 添加到 Unified Manager 的集群。
+
+====
+
+
+ a| 
+`GET`
+
+`POST`
+
+`DELETE`
+
+`PATCH`
+
+`OPTIONS` (不适用于Swagger)
+
+`HEAD` (不适用于Swagger)
+ a| 
+`+/gateways/{uuid}/{path}+`
+
+[NOTE]
+====
+的值 `+{uuid}+` 必须替换为要执行REST操作的集群UUID。此外，请确保 UUID 为 ONTAP 9.5 或更高版本支持的集群，并通过 HTTPS 添加到 Unified Manager 中。 `+{path}+` 必须替换为ONTAP REST URL。您必须删除 `/api/` 从URL。
+
+==== a| 
+这是一个单点代理 API ，支持 POST ，删除，修补操作，并支持所有 ONTAP REST API 的 GET 。只要 ONTAP 支持任何 API ，就不会对其施加任何限制。无法禁用通道或代理功能。
+
+。 `OPTIONS` 方法返回ONTAP REST API支持的所有操作。例如、如果ONTAP API仅支持 `GET` 操作、运行 `OPTIONS` 方法 `GET` 作为响应。Swagger 不支持此方法，但可以在其他 API 工具上执行。
+
+。 `OPTIONS` 方法用于确定资源是否可用。此操作可用于查看 HTTP 响应标头中有关某个资源的元数据。Swagger 不支持此方法，但可以在其他 API 工具上执行。
+
+|===
+
+
+== 了解 API 网关通道
+
+通过网关 API ，您可以通过 Unified Manager 管理 ONTAP 对象。Unified Manager 可管理集群和身份验证详细信息，并将请求重定向到 ONTAP REST 端点。网关 API 使用 API 网关基本 URL 将 URL 和 Hypermedia 转换为标题和响应正文中的应用程序状态引擎（ HATEOAS ）链接。网关 API 充当代理基础 URL ，您可以将 ONTAP REST URL 附加到该 URL 并执行所需的 ONTAP REST 端点。
+
+在此示例中、网关API (代理基本URL)为： `+/gateways/{uuid}/+`
+
+采用的ONTAP API为： `/storage/volumes`。您需要将ONTAP API REST URL添加为的值 `path` 参数。
+
+[NOTE]
+====
+添加路径时、请确保已删除"`/`" symbol at the beginning of the URL. For the API `/storage/volumes`、添加 `storage/volumes`。
+
+====
+附加的URL为： `+/gateways/{uuid}/storage/volumes+`
+
+运行时 `GET` 操作时、生成的URL如下： `GEThttps://<hostname>/api/gateways/<cluster_UUID>/storage/volumes`
+
+。 `/api` 附加的ONTAP REST URL的标记将被删除、而网关API的标记将保留下来。
+
+* 示例 cURL 命令 *
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes" -H "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+API 将返回该集群中的存储卷列表。响应格式与从 ONTAP 运行相同 API 时收到的格式相同。返回的状态代码为 ONTAP REST 状态代码。
+
+
+
+== 正在设置 API 范围
+
+所有 API 都在集群范围内设置了上下文。基于 Storage VM 运行的 API 也会以集群为范围，也就是说， API 操作会在受管集群中的特定 Storage VM 上执行。运行时 `+/gateways/{uuid}/{path}+` API中、请确保输入运行此操作的集群的集群UUID (Unified Manager数据源UUID)。要为该集群中的特定Storage VM设置上下文、请输入此Storage VM密钥作为 `X-Dot-SVM-UUID` 参数或作为的Storage VM名称 `X-Dot-SVM-Name` 参数。参数将作为筛选器添加到字符串标题中，此操作将在该集群中的该 Storage VM 的范围内运行。
+
+* 示例 cURL 命令 *
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
+-H "Authorization: Basic <Base64EncodedCredentials>"
+----
+有关使用ONTAP REST API的详细信息、请参见 https://docs.netapp.com/us-en/ontap-automation/index.html["ONTAP REST API 自动化"]。

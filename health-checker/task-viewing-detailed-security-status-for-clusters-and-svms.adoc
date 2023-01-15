@@ -1,0 +1,34 @@
+---
+permalink: health-checker/task-viewing-detailed-security-status-for-clusters-and-svms.html 
+sidebar: sidebar 
+keywords: cluster security status,SVM security status,volume encryption status 
+summary: '" 安全性 " 页面显示所有集群的高级别安全状态以及各个集群的详细安全状态。详细的集群状态包括集群合规性， SVM 合规性和卷加密合规性。' 
+---
+= 查看集群和 SVM 的详细安全状态
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+" 安全性 " 页面显示所有集群的高级别安全状态以及各个集群的详细安全状态。详细的集群状态包括集群合规性， SVM 合规性和卷加密合规性。
+
+
+
+== 步骤
+
+. 在左侧导航窗格中，单击 * 信息板 * 。
+. 根据您要查看所有受监控集群或单个集群的安全状态，选择 * 所有集群 * 或从下拉菜单中选择一个集群。
+. 单击 * 安全性 * 面板中的右箭头。
++
+" 安全性 " 页面将显示以下信息：
+
++
+** 集群安全状态（合规或不合规的集群数量）
+** SVM 安全状态（合规或不合规的 SVM 数量）
+** 卷加密状态（已加密或未加密的卷数）
+** 每个集群上使用的集群身份验证方法
+
+
+. 请参见 http://www.netapp.com/us/media/tr-4569.pdf["《适用于 ONTAP 9 的 NetApp 安全加固指南》"] 有关如何使所有集群， SVM 和卷符合 NetApp 安全建议的说明。
+

@@ -1,0 +1,18 @@
+---
+permalink: online-help/concept-using-unified-manager-rest-apis-ocum.html 
+sidebar: sidebar 
+keywords: REST APIs 
+summary: Active IQ Unified Manager 为您提供了 REST API ，用于查看有关监控和管理存储环境的信息。API 还允许根据策略配置和管理存储对象。 
+---
+= 使用 Unified Manager REST API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager 为您提供了 REST API ，用于查看有关监控和管理存储环境的信息。API 还允许根据策略配置和管理存储对象。
+
+此外，您还可以使用 Unified Manager 支持的 API 网关在所有 ONTAP 管理的集群上执行 ONTAP API 。
+
+有关Unified Manager REST API的信息、请参见 link:../api-automation/concept-getting-started-with-getting-started-with-um-apis.html["Active IQ Unified Manager 入门"]。

@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task-viewing-volumes-or-luns-that-are-in-the-same-qos-policy-group.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以显示已分配给同一 QoS 策略组的卷和 LUN 的列表。 
+---
+= 查看同一 QoS 策略组中的卷或 LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以显示已分配给同一 QoS 策略组的卷和 LUN 的列表。
+
+
+
+== 关于此任务
+
+如果传统 QoS 策略组在多个卷中为 `s共享` ，则查看某些卷是否过度使用为策略组定义的吞吐量可能会很有用。它还有助于您确定是否可以在不对其他卷产生负面影响的情况下将其他卷添加到策略组。
+
+对于自适应QoS策略和Unified Manager性能服务级别策略、查看正在使用策略组的所有卷或LUN可能会很有用、这样、您可以查看在更改QoS策略的配置设置后哪些对象会受到影响。
+
+
+
+== 步骤
+
+. 在左侧导航窗格中，单击 * 存储 * > * QoS 策略组 * 。
++
+默认情况下，将显示 " 性能：传统 QoS 策略组 " 视图。
+
+. 如果您对传统策略组感兴趣，请继续查看此页面。否则、请选择其他视图选项之一、以显示Unified Manager性能服务级别创建的所有自适应QoS策略组或所有QoS策略组。
+. 在您感兴趣的 QoS 策略中，单击展开按钮（image:../media/chevron-down.gif[""]）以查看更多详细信息。image:../media/adaptive-qos-expanded.gif[""]
+. 单击卷或 LUN 链接以查看使用此 QoS 策略的对象。
++
+此时将显示卷或 LUN 的性能清单页面，其中列出了正在使用 QoS 策略的对象。
+
+

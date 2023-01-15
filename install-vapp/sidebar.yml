@@ -1,0 +1,49 @@
+---
+section: install-vapp
+title: 在 VMware vSphere 系统上安装 Unified Manager
+entries:
+- title: Active IQ Unified Manager 简介
+  url: "/install-vapp/concept-introduction-to-unified-manager.html"
+  entries:
+  - title: Unified Manager 服务器的功能
+    url: "/install-vapp/concept-what-the-unified-manager-server-does.html"
+  - title: Active IQ Unified Manager 产品文档
+    url: "/install-vapp/reference-oncommand-unified-manager-product-documentation.html"
+  - title: 安装顺序概述
+    url: "/install-vapp/concept-overview-of-the-installation-sequence-um.html"
+- title: Unified Manager 的安装要求
+  url: "/install-vapp/concept-requirements-for-installing-unified-manager.html"
+  entries:
+  - title: 虚拟基础架构和硬件系统要求
+    url: "/install-vapp/concept-virtual-infrastructure-or-hardware-system-requirements.html"
+  - title: VMware 软件和安装要求
+    url: "/install-vapp/reference-vmware-software-and-installation-requirements.html"
+  - title: 支持的浏览器
+    url: "/install-vapp/concept-browser-and-platform-requirements.html"
+  - title: 协议和端口要求
+    url: "/install-vapp/reference-protocol-and-port-requirements.html"
+  - title: 正在完成工作表
+    url: "/install-vapp/reference-completing-the-worksheet-um.html"
+- title: 安装，升级和删除 Unified Manager 软件
+  url: "/install-vapp/concept-installing-upgrading-and-removing-unified-manager-software-on-vmware-vsphere.html"
+  entries:
+  - title: 部署过程概述
+    url: "/install-vapp/concept-overview-of-the-deployment-process.html"
+  - title: 部署 Unified Manager
+    url: "/install-vapp/task-deploying-unified-manager-vapp.html"
+    entries:
+    - title: 下载 Unified Manager 安装文件
+      url: "/install-vapp/task-downloading-the-unified-manager-ova-file.html"
+    - title: 部署 Unified Manager 虚拟设备
+      url: "/install-vapp/task-deploying-the-unified-manager-virtual-appliance-vapp.html"
+  - title: 升级 Unified Manager
+    url: "/install-vapp/task-upgrading-unified-manager-vapp.html"
+    entries:
+    - title: 下载 Unified Manager 升级文件
+      url: "/install-vapp/task-downloading-the-unified-manager-iso-image-vapp.html"
+    - title: 升级 Unified Manager 虚拟设备
+      url: "/install-vapp/task-upgrading-the-unified-manager-virtual-appliance-vapp.html"
+  - title: 重新启动 Unified Manager 虚拟机
+    url: "/install-vapp/task-restarting-the-unified-manager-virtual-machine.html"
+  - title: 正在删除 Unified Manager
+    url: "/install-vapp/task-removing-unified-manager-vapp.html"

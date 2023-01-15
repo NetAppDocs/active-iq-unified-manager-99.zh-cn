@@ -1,0 +1,22 @@
+---
+permalink: online-help/concept-fixing-ontap-issues-directly-from-unified-manager.html 
+sidebar: sidebar 
+keywords: fix it,fix all 
+summary: '您可以直接从 Unified Manager 用户界面修复某些 ONTAP 问题，而不必使用 ONTAP System Manager 或 ONTAP 命令行界面。" 管理操作 " 选项可修复已触发 Unified Manager 事件的许多 ONTAP 问题。' 
+---
+= 直接从 Unified Manager 修复 ONTAP 问题
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以直接从 Unified Manager 用户界面修复某些 ONTAP 问题，而不必使用 ONTAP System Manager 或 ONTAP 命令行界面。" `M管理操作` " 选项可修复已触发 Unified Manager 事件的许多 ONTAP 问题。
+
+您可以直接从管理操作页面中选择左侧导航窗格中的 * 管理操作 * 选项来修复问题。此外，您还可以从 " 信息板 " 上的 " 管理操作 " 面板， " 事件详细信息 " 页面以及左侧导航菜单上的 " 工作负载分析 " 选项中访问管理操作。
+
+Unified Manager 可以全面诊断某些问题并提供单一解决方案。如果存在这些解决方法，这些解决方法将显示在管理操作中，并显示一个 * 修复它 * 按钮。单击 * 修复它 * 按钮以修复问题描述。您必须具有应用程序管理员或存储管理员角色。
+
+Unified Manager 会向集群发送 ONTAP 命令以执行请求的修复。修复完成后，此事件将被废弃。
+
+通过某些管理操作，您可以使用 * 全部修复 * 按钮在多个存储对象上修复同一个问题描述。例如、可能有5个卷出现"`Volume Space Full`"事件、可通过单击"`Enable volume autogrow`"的*全部修复*管理操作来解决此问题。一键即可在 5 个卷上修复此问题描述。

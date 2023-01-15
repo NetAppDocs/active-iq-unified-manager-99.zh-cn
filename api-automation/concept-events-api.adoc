@@ -1,0 +1,70 @@
+---
+permalink: api-automation/concept-events-api.html 
+sidebar: sidebar 
+keywords:  
+summary: 通过management-server类别下的事件和系统API、您可以检索为数据中心中受监控集群生成的事件、并分别查看Active IQ Unified Manager 环境中的实例详细信息。 
+---
+= 查看事件和系统详细信息
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+。 `events` 和 `system` API `management-server` 类别用于检索为数据中心中受监控集群生成的事件、并分别查看Active IQ Unified Manager 环境中的实例详细信息。
+
+
+
+== 查看事件
+
+使用 `/management-server/events` API、您可以查询数据中心中的事件、包括历史数据。使用内置筛选器、例如名称、影响级别、影响区域、严重性、状态、资源名称和资源类型、用于查看特定事件。资源类型和区域参数返回有关发生事件的存储对象的信息、而影响区域返回有关引发事件的问题描述 的信息、例如可用性、容量、配置、安全性、保护和性能。
+
+您还可以使用事件密钥查询特定事件的详细信息、并对资源运行下一组操作。
+
+[cols="4*"]
+|===
+| 类别 | HTTP 动词 | 路径 | Description 
+
+
+ a| 
+管理服务器
+ a| 
+获取
+ a| 
+`/management-server/events`
+ a| 
+响应正文由该数据中心中查询的事件的事件详细信息组成。
+
+
+
+ a| 
+管理服务器
+ a| 
+获取
+ a| 
+`+/management-server/events/{key}+`
+ a| 
+如果要查询特定事件、请运行此API。输入作业的事件密钥以查看详细信息。响应正文由该事件的详细信息组成。
+
+|===
+
+
+== 查看系统详细信息
+
+使用 `/management-server/system` API、您可以查询Unified Manager环境的实例专用详细信息。API 将返回有关产品和服务的信息，例如系统上安装的 Unified Manager 版本， UUID ，供应商名称，主机操作系统以及名称， 问题描述以及 Unified Manager 实例上运行的服务的状态。
+
+[cols="4*"]
+|===
+| 类别 | HTTP 动词 | 路径 | Description 
+
+
+ a| 
+管理服务器
+ a| 
+获取
+ a| 
+`/management-server/system`
+ a| 
+运行此 API 不需要输入参数。默认情况下，将返回当前 Unified Manager 实例的系统详细信息。
+
+|===

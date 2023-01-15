@@ -1,0 +1,83 @@
+---
+permalink: online-help/reference-backup-settings-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: 备份设置对话框用于配置MySQL和NetApp Snapshot备份的设置。根据配置的备份、备份设置对话框中会显示相关字段。对于MySQL数据库备份、您可以为选定Active IQ Unified Manager 实例定义备份计划、保留计数和备份路径。 
+---
+= 备份设置对话框
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+备份设置对话框用于配置MySQL和NetApp Snapshot备份的设置。根据配置的备份、备份设置对话框中会显示相关字段。对于MySQL数据库备份、您可以为选定Active IQ Unified Manager 实例定义备份计划、保留计数和备份路径。
+
+您可以更改以下数据库备份设置：
+
+* *集群*
++
+您应提供要托管Unified Manager数据的存储系统的集群管理IP。
+
+* *卷*
++
+您应提供包含用于托管Unified Manager数据的专用LUN的卷的名称。
+
+* *存储VM*
++
+您应提供卷所在Storage VM的名称、其中包含用于托管Unified Manager数据的专用LUN。
+
+* * LUN *
++
+如果备份类型为NetApp Snapshot、则应提供托管Unified Manager数据的LUN的名称。
+
+* *挂载路径*
++
+使用MySQL数据库转储备份方法时、此字段指定备份文件存储位置的路径。使用Snapshot备份方法时、此位置将显示要存储备份的集群、Storage VM和卷。
+
++
+下表指定了不同操作系统的备份路径格式和默认位置：
+
++
+[cols="2*"]
+|===
+| 主机操作系统 | 备份路径格式 
+
+
+ a| 
+虚拟设备
+ a| 
+`/opt/netapp/data/ocum-backup`
+
+
+
+ a| 
+Red Hat Enterprise Linux 或 CentOS Linux
+ a| 
+`/data/ocum-backup`
+
+
+
+ a| 
+Microsoft Windows
+ a| 
+对于Windows、您需要提供挂载路径。例如、如果挂载路径为`D`驱动器、则应将挂载路径提供为 `D:`
+
+|===
+* *保留计数*
++
+指定Unified Manager要保留的最大备份数。默认值为10。
+
+* *计划每日*
++
+指定每日备份计划和时间。
+
+* *计划每周*
++
+指定每周备份计划以及日期和时间。
+
+* * 无 *
++
+指定不创建备份。
+
+

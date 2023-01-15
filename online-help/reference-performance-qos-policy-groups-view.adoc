@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-performance-qos-policy-groups-view.html 
+sidebar: sidebar 
+keywords:  
+summary: '"QoS策略组"视图显示了Unified Manager正在监控的集群上可用的QoS策略组。其中包括传统QoS策略、自适应QoS策略以及使用性能服务级别分配的QoS策略。' 
+---
+= 性能：QoS策略组视图
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+"QoS策略组"视图显示了Unified Manager正在监控的集群上可用的QoS策略组。其中包括传统QoS策略、自适应QoS策略以及使用性能服务级别分配的QoS策略。
+
+通过沿页面顶部排列的控件、您可以根据感兴趣的QoS策略类型选择特定视图、执行搜索以查找特定对象、创建并应用筛选器以缩小显示的数据列表范围、在页面上添加/删除/重新排列列、并将页面上的数据导出到 `.csv` 或 `.pdf` 文件
+
+自定义页面后，您可以将结果保存为自定义视图，然后计划定期生成此数据的报告并通过电子邮件发送。
+
+请参见 xref:reference-qos-policy-group-fields.adoc[QoS策略组字段] 有关此页面上所有字段的说明、请参见。

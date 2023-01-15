@@ -1,0 +1,31 @@
+---
+permalink: online-help/concept-managing-reports.html 
+sidebar: sidebar 
+keywords:  
+summary: 通过Active IQ Unified Manager 、您可以直接从Unified Manager用户界面创建和管理报告、以便查看有关集群中存储对象的运行状况、容量、性能和保护关系的信息。查看此信息有助于您在潜在问题发生之前确定它们。 
+---
+= 管理报告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+通过Active IQ Unified Manager 、您可以直接从Unified Manager用户界面创建和管理报告、以便查看有关集群中存储对象的运行状况、容量、性能和保护关系的信息。查看此信息有助于您在潜在问题发生之前确定它们。
+
+您可以下载逗号分隔值(.csv)、Microsoft Excel (.xlsx)或PDF文件格式的报告。您还可以计划通过电子邮件向一组收件人发送报告。报告将作为电子邮件附件发送。
+
+除了从用户界面生成报告之外、您还可以使用以下其他方法从Unified Manager提取运行状况和性能数据：
+
+* 使用开放式数据库连接（ ODBC ）和 ODBC 工具直接访问数据库以获取集群信息
+* 执行 Unified Manager REST API 以返回您要查看的信息
+
+
+从此版本的Active IQ Unified Manager 中、报告进行了以下增强：
+
+* 系统会根据配置的计划为报告发送电子邮件。即使生成按需报告，您也会收到一封电子邮件。
+* 报告的文件名和报告的元数据包括生成报告的主机名。
++
+即使任何一个更改了文件名，您仍然可以确定由于此增强功能而生成报告的主机名。
+
+

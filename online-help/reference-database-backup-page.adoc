@@ -1,0 +1,46 @@
+---
+permalink: online-help/reference-database-backup-page.html 
+sidebar: sidebar 
+keywords:  
+summary: '"数据库备份"页面将显示Unified Manager创建的备份列表、并提供有关备份名称、大小和创建时间的信息。' 
+---
+= 数据库备份页面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+"数据库备份"页面将显示Unified Manager创建的备份列表、并提供有关备份名称、大小和创建时间的信息。
+
+您必须具有应用程序管理员或存储管理员角色。
+
+
+
+== 列表视图
+
+列表视图显示有关可用备份文件的信息。
+
+* * 名称 *
++
+备份的名称。
+
+* * 大小 *
++
+备份的大小。
+
+* *创建时间*
++
+备份的创建日期和时间。
+
+
+
+
+
+== 命令按钮
+
+* *备份设置*
++
+显示备份设置对话框、在此可以指定备份路径、保留数量和备份计划。
+
+

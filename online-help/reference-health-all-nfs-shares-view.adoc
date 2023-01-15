@@ -1,0 +1,22 @@
+---
+permalink: online-help/reference-health-all-nfs-shares-view.html 
+sidebar: sidebar 
+keywords:  
+summary: '运行状况：所有NFS共享视图可显示有关NFS共享的信息、例如其状态、与卷(FlexGroup 卷或FlexVol 卷)关联的路径、客户端对NFS共享的访问级别以及为导出的卷定义的导出策略。' 
+---
+= 运行状况：所有NFS共享视图
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+运行状况：所有NFS共享视图可显示有关NFS共享的信息、例如其状态、与卷(FlexGroup 卷或FlexVol 卷)关联的路径、客户端对NFS共享的访问级别以及为导出的卷定义的导出策略。
+
+默认情况下、此页面上的对象会根据状态进行排序。首先列出存在错误的对象、然后列出状态为正常的对象。这样可以直观地即时指示必须解决的问题。
+
+通过沿页面顶部排列的控件、您可以选择特定视图(运行状况、性能、容量等)、执行搜索以查找特定对象、创建并应用筛选器以缩小显示的数据列表范围、在页面上添加/删除列或对列重新排序、并将页面上的数据导出到 `.csv`， `.pdf`或 `.xlsx` 文件自定义页面后，您可以将结果保存为自定义视图，然后计划定期生成此数据的报告并通过电子邮件发送。
+
+如果要分析特定对象的延迟和吞吐量、请单击更多图标 image:../media/more-icon.gif[""]、然后是*分析工作负载*、您可以在"工作负载分析"页面上查看性能和容量图表。
+
+请参见 xref:reference-nfs-shares-health-fields.adoc[NFS共享运行状况字段] 有关此页面上所有字段的说明、请参见。

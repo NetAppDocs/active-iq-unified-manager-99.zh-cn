@@ -1,0 +1,92 @@
+---
+permalink: online-help/reference-svm-health-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 以下字段可在运行状况：所有Storage VM视图中使用、并可在自定义视图和报告中使用。 
+---
+= SVM运行状况字段
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以下字段可在运行状况：所有Storage VM视图中使用、并可在自定义视图和报告中使用。
+
+* * 状态 *
++
+SVM的当前状态。此状态可以为严重（image:../media/sev-critical-um60.png["事件严重性图标—严重"]），错误（image:../media/sev-error-um60.png["事件严重性图标—错误"]），警告（image:../media/sev-warning-um60.png["事件严重性图标—警告"]）或正常（image:../media/sev-normal-um60.png["事件严重性图标—正常"]）。
+
+* *存储VM*
++
+SVM 的名称。
+
+* * 状态 *
++
+SVM的当前管理状态。此状态可以是"正在运行"、"已停止"、"正在启动"或"正在停止"。
+
+* *允许的卷类型*
++
+可在SVM中创建的卷类型。类型可以是 FlexVol 或 FlexVol/FlexGroup 。
+
+* * 允许的协议 *
++
+可在SVM上配置的协议类型。可用协议包括FC/FCoE、iSCSI、HTTP、NDMP、NVMe、NFS和CIFS。
+
+* *可用数据容量*
++
+SVM中所有卷的可用数据容量。
+
+* *总数据容量*
++
+SVM中所有卷的总数据容量。
+
+* *根卷*
++
+SVM根卷的名称。
+
+* * NIS状态*
++
+网络信息服务(NIS)的状态。此状态可以是"已启用"、"已禁用"或"未配置"。
+
+* * NIS域*
++
+NIS域名。如果NIS服务器已禁用或未配置、则此列为空。
+
+* * DNS状态*
++
+域名系统(DNS)的状态。此状态可以是"已启用"、"已禁用"或"未配置"。
+
+* * DNS域*
++
+DNS域名。
+
+* *保护角色*
++
+Storage VM的保护状态。此角色可以是受保护、未受保护或目标。
+
+* *名称服务交换机*
++
+从主机收集的信息类型。可能的值包括file、ldap或NIS。
+
+* 已启用* LDAP *
++
+LDAP协议是否已启用。
+
+* *允许的最大卷数*
++
+可在SVM上配置的最大允许卷数。
+
+* * 卷计数 *
++
+SVM包含的卷数。
+
+* *集群*
++
+SVM所属集群的名称。
+
+* *集群FQDN*
++
+集群的完全限定域名(FQDN)。
+
+
