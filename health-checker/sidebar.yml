@@ -9,8 +9,6 @@ entries:
     url: "/health-checker/concept-unified-manager-health-monitoring-features.html"
   - title: 用于管理存储系统运行状况的 Unified Manager 接口
     url: "/health-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-health.html"
-  - title: Active IQ Unified Manager 产品文档
-    url: "/health-checker/reference-oncommand-unified-manager-product-documentation.html"
 - title: 常见 Unified Manager 运行状况工作流和任务
   url: "/health-checker/concept-common-unified-manager-administrative-workflows-and-tasks.html"
   entries:

@@ -1480,12 +1480,3 @@ entries:
     url: "/online-help/reference-user-not-found.html"
   - title: 问题描述与使用其他身份验证服务添加 LDAP
     url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-- title: 版权，商标和机器翻译
-  url: "/online-help/reference-copyright-and-trademark.html"
-  entries:
-  - title: 版权
-    url: "/online-help/reference-copyright.html"
-  - title: 商标
-    url: "/online-help/reference-trademark.html"
-  - title: 机器翻译
-    url: "/online-help/generic-machine-translation-disclaimer.html"

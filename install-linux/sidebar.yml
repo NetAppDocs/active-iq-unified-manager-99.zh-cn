@@ -8,8 +8,6 @@ entries:
   entries:
   - title: Unified Manager 服务器的功能
     url: "/install-linux/concept-what-the-unified-manager-server-does.html"
-  - title: Active IQ Unified Manager 产品文档
-    url: "/install-linux/reference-oncommand-unified-manager-product-documentation.html"
   - title: 安装顺序概述
     url: "/install-linux/concept-overview-of-the-installation-sequence-um.html"
 - title: Unified Manager 的安装要求
