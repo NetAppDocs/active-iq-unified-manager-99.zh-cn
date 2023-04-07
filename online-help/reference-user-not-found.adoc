@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* * 问题描述 *
-+
+[role="lead"]
 在执行与身份验证相关的操作(例如添加、编辑、删除或测试远程用户或组)时、将显示以下错误消息： `User not found`。
 
 * * 发生原因 *

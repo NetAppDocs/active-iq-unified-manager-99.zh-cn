@@ -1759,7 +1759,6 @@
   <block id="ebbab74c7a0bca0b34014d8b31f4b555" category="paragraph">系统会提示您是否要更改端口并立即重新启动 Unified Manager 。</block>
   <block id="5baed249a436bad64304ca18c80b1046" category="list-text">键入 * 。 * 以更改端口并重新启动 Unified Manager 。</block>
   <block id="f4dbd114406d92353e8a1e1c4fd9c80e" category="list-text">退出维护控制台。</block>
-  <block id="baec228da07f4117ab287d4e7ff3450d" category="paragraph">进行此更改后、用户必须在URL中包含新端口号才能访问Unified Manager Web UI、例如_https://host.company.com:1234_、_https://12.13.14.15:1122_或_https://[2001:db8:0:1]:2123_。</block>
   <block id="a34cd6f4c94c5ba3e746a43277da2b01" category="summary">如果启用了远程身份验证，则可以禁用嵌套组身份验证，以便只有单个用户（而不是组成员）可以远程向 Unified Manager 进行身份验证。如果要缩短 Active Directory 身份验证响应时间，可以禁用嵌套组。</block>
   <block id="43c77f80d73d1ad18307da186ce2dfb7" category="doc">禁用远程身份验证中的嵌套组</block>
   <block id="127ee1432ace68462d32845133dd493a" category="list-text">只有在使用 Active Directory 时，禁用嵌套组才适用。</block>
@@ -1917,7 +1916,6 @@
   <block id="860a4ae959c1f38d2bdb3672dbc6e68f" category="list-text">单击*名称*、然后输入<block ref="5a62e78cb11c6a68fcf30f73ceeb07ce" prefix=" " category="inline-code"></block> 在*警报名称*字段中。</block>
   <block id="4687a45557c6de6bf5014c298ba19516" category="list-text">单击 * 资源 * ，然后在包括选项卡中，从下拉列表中选择 * 卷 * 。</block>
   <block id="8cca26a201b0b43bca19bfb283b369be" category="list-text">输入 ...<block ref="900150983cd24fb0d6963f7d28e17f72" prefix=" " category="inline-code"></block> 在*名称包含*字段中、显示名称包含"`abc`"的卷。</block>
-  <block id="4db3be3dab523c61caf6ee4e5ad56eb1" category="list-text">选择*<block ref="0343dc028b8904b58f0fda8322166a90" category="inline-xref-macro-rx"></block>*、然后将其移动到"选定资源"区域。</block>
   <block id="f3afa732be6de123d4fdd89d63e6c867" category="list-text">单击*排除*、然后输入<block ref="d16fb36f0911f878998c136191af705e" prefix=" " category="inline-code"></block> 在*名称包含*字段中、然后单击*添加*。</block>
   <block id="995611eb3ed7d85cb25d639ccb379ab7" category="list-text">单击 * 事件 * ，然后从事件严重性字段中选择 * 严重 * 。</block>
   <block id="e442773ac882688a850ce3cb0aa40df6" category="list-text">从匹配事件区域中选择 * 所有严重事件 * ，然后将其移动到选定事件区域。</block>
@@ -5423,7 +5421,6 @@
   <block id="59ed1d4c045e5b70eb07c1bcf26e632f" category="paragraph">确认卷脱机情况是由损坏的 RAID 磁盘以及由此导致的主机聚合脱机引起的，请联系相应的管理员或操作员，手动更换损坏的磁盘并将聚合重新联机。</block>
   <block id="f3011abc0f2cf46c0f0e4bb1bb2a0bc0" category="summary">您可以使用卷 / 运行状况详细信息页面查看有关选定卷的详细信息，例如容量，存储效率，配置，保护， 标注和生成的事件。您还可以查看有关该卷的相关对象和相关警报的信息。</block>
   <block id="e57daf17402a23e1c67326454713c519" category="doc">卷 / 运行状况详细信息页面</block>
-  <block id="62de64540d85589bdce233c0192ffa51" category="list-text"><block ref="ef85462d98138bd3d2a4c885e92271b2" category="inline-xref-macro-rx"></block></block>
   <block id="d291617aef6e2c71ee50d482ca30a639" category="paragraph">使用命令按钮可以对选定卷执行以下任务：</block>
   <block id="bc70e10629f9ad610a953a22db460218" category="paragraph">用于导航到卷 / 性能详细信息页面。</block>
   <block id="50b1ea3c76cb6b1a0b5c5c488d609e0d" category="paragraph">用于向选定卷添加警报。</block>
@@ -8426,9 +8423,6 @@
   <block id="29cc3ee54d22c8d34f0703b0fdf101a9" category="list-text">运行安装前脚本，以确保不存在可能与 Unified Manager 安装冲突的系统配置设置或任何已安装软件：<block ref="aafaead82da84c908c0f4e4b6bdfd43c" prefix=" " category="inline-code"></block></block>
   <block id="91ddae155de651c77081a04807514b9a" category="paragraph">预安装脚本会检查系统是否具有有效的 Red Hat 订阅，以及是否有权访问所需的软件存储库。如果此脚本发现任何问题，则必须在安装 Unified Manager 之前修复这些问题。</block>
   <block id="b06597a497eb21d391372afb93828b7b" category="paragraph">对于 Red Hat Enterprise Linux 8 系统，如果您的内部存储库包含 AppStream 存储库提供的 JDK 11 - OpenJDK ， p7zip 和其他软件包，则必须禁用 AppStream 存储库并安装 MySQL 社区服务器。运行以下命令：</block>
-  <block id="834ffaadb040d157daea2be06216315a" category="inline-xref">第7步</block>
-  <block id="70c52f8fba5e2a6610cbd7ac8cec8ea4" category="inline-xref">第8步</block>
-  <block id="f69ffa9e2530c93eec122bfebb78eb0d" category="list-text">您必须执行 <block ref="1cab4d98a1d8e443e4fb0ed97249d177" category="inline-xref-macro-rx"></block>如果您的系统未连接到Internet、则必须手动下载安装所需的软件包。如果您的系统可以访问Internet、并且所有所需软件包均可用、请转至 <block ref="1875f7c44e96bee93d30273b4a96bc63" category="inline-xref-macro-rx"></block>。对于未连接到 Internet 或未使用 Red Hat Enterprise Linux 存储库的系统，请执行以下步骤以确定是否缺少任何所需的软件包，然后下载这些软件包：</block>
   <block id="8f18298a036e529263de6c20caa7bd22" category="list-text">在要安装 Unified Manager 的系统上，查看可用和不可用软件包的列表：<block ref="073139234fb3d773b942ceabd7f71696" prefix=" " category="inline-code"></block></block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">"`Installing ：` " 部分中的项是当前目录中提供的软件包， "`Installing for 相关项：` " 部分中的项是系统中缺少的软件包。</block>
   <block id="91bb85c174a357b715c58e93154ae9cd" category="list-text">在可访问 Internet 的系统上，下载缺少的软件包：<block ref="7e30708965ebb4fb2d6f096fff739831" prefix=" " category="inline-code"></block></block>
@@ -8686,7 +8680,6 @@
   <block id="5ddcf17f54788a5bb9148e8671562c06" category="list-text">* 端口 *</block>
   <block id="0bf7a4bae799698d9fb35f2f052c055b" category="paragraph">用于指定用于连接到集群的端口号。HTTPS的默认端口为443。</block>
   <block id="aa1daa474c7a5ca26676f22debadc497" category="doc">未知身份验证错误</block>
-  <block id="9ff702207c5c34d0a659bd2093b21d08" category="list-text">* 问题描述 *</block>
   <block id="ef5d4fecdd3493d1580a29894128aa78" category="paragraph">在执行与身份验证相关的操作(例如添加、编辑、删除或测试远程用户或组)时、可能会显示以下错误消息：<block ref="aa1daa474c7a5ca26676f22debadc497" prefix=" " category="inline-code"></block>。</block>
   <block id="3bef6104c92bf17bdfdf66c9a257bbfc" category="list-text">* 发生原因 *</block>
   <block id="603985874695e48f0f343eddd9f00df0" category="paragraph">如果为以下选项设置的值不正确，则可能会出现此问题：</block>
@@ -9329,7 +9322,6 @@
   <block id="80687a881a315fb61a2b48a6e60b4a5a" category="paragraph">您应为此警报提供一个问题描述，以帮助您有效地跟踪警报。</block>
   <block id="ddcf50c29294d4414f3f7c1bbc892cb5" category="list-text">Resources</block>
   <block id="17f9c57d264c89951df5c1db82fd7648" category="paragraph">您应确定哪些物理或逻辑资源需要警报。您可以根据需要包括和排除资源。例如，如果要通过配置警报来密切监控聚合，则必须从资源列表中选择所需的聚合。</block>
-  <block id="9b4e9eae14325b35785f555c2b80c5c3" category="paragraph">如果选择资源类别、例如*<block ref="3d99572ec2bdf0c3d8dc014395d1fc4b" category="inline-xref-macro-rx"></block>*、则您将收到该类别中所有对象的警报。</block>
   <block id="b1f0bb9e4119cac23af781dbcb98eede" category="paragraph">选择集群作为资源不会自动选择该集群中的存储对象。例如，如果为所有集群的所有严重事件创建警报，则只会收到集群严重事件的警报。您不会收到节点，聚合等上的严重事件警报。</block>
   <block id="e0b18d5b04f677d427e5a029d591d7a9" category="list-text">事件严重性</block>
   <block id="e9f9b8abaf7eb3e0540aa0a9395b4586" category="paragraph">您应确定指定严重性类型的事件（严重，错误，警告）是否应触发警报，如果是，则应触发哪种严重性类型。</block>
@@ -9829,8 +9821,6 @@
   <block id="9031cd728998bae2a317c0ada2c06c50" category="list-text">单击 * 安装 HTTPS 证书 * 。</block>
   <block id="dafb1ec2f1328a43e62f2e17ec152ee1" category="list-text">在显示的对话框中，单击 * 选择文件 ...* 以找到要上传的文件。</block>
   <block id="5da1f8bf7b38bb2a074639707c42026e" category="list-text">选择文件，然后单击 * 安装 * 以安装此文件。</block>
-  <block id="9d6e63ada90eb8212c721413e3cbddb4" category="inline-link-macro">concept-installing-a-https-certificate-genered-using外部工具.dita</block>
-  <block id="48602b7b778981dcf31178d5926d956e" category="paragraph"><block ref="48602b7b778981dcf31178d5926d956e" category="inline-link-macro-rx"></block></block>
   <block id="04a57370fa2200d77ef5928f7670b3d3" category="section-title">证书链示例</block>
   <block id="7c051c353986dd53c30c276ec156f68f" category="paragraph">以下示例显示了证书链文件的显示方式：</block>
   <block id="d96a1cff62b479b326f5ebda571bc045" category="summary">保护事件会告诉您作业是失败还是已中止，以便您可以监控问题。事件按影响区域分组，并包括事件和陷阱名称，影响级别，源类型和严重性。</block>
@@ -10947,7 +10937,6 @@
   <block id="971bc243bf5be898efaebd3d2c7dc2ff" category="paragraph">用于包括要触发警报的资源。您可以指定一个文本字符串，以便对与该字符串匹配的资源进行分组，并选择要包含在警报中的此组。例如、您可以对名称包含"`abc`"字符串的所有卷进行分组。</block>
   <block id="a331a53ce7ff01e69798721f7bf83d7c" category="list-text">* 排除 *</block>
   <block id="706fa2dc0c7413cf984bdc7899e18339" category="paragraph">用于排除不希望触发警报的资源。例如，您可以排除名称包含 "`xyz` " 字符串的所有卷。</block>
-  <block id="f2b183916ef051011bf3b2abce3ce054" category="paragraph">只有在选择特定资源类型的所有资源时、才会显示排除选项卡：例如、 <block ref="0350a5968a3cf533bb7edcb37c899b0b" category="inline-xref-macro-rx"></block> 或 <block ref="72238bf76c964df49e0c21f6a354496b" category="inline-xref-macro-rx"></block>。</block>
   <block id="a55c7a5790be227c0b0411407179e814" category="paragraph">如果某个资源同时符合您指定的包含和排除规则，则排除规则优先于包含规则，并且不会为此事件生成警报。</block>
   <block id="7f3053c56b9c2ab27d983678f88c47e3" category="paragraph">通过此区域，您可以选择要为其创建警报的事件。您可以根据特定严重性为事件创建警报，也可以为一组事件创建警报。</block>
   <block id="6e19c7085382cae7c4da3e3d5c5ed218" category="paragraph">要选择多个事件，应在选择时按住 Ctrl 键。</block>
@@ -11435,7 +11424,6 @@
   <block id="11afb48f4925715910142b11a6d18d2c" category="paragraph">移动连接到 CIFS 共享的 LIF 时，访问 CIFS 共享的客户端将断开连接。对 CIFS 共享的任何读取或写入请求都会中断。</block>
   <block id="642ceb2c24ddc880d3f99ceceb9a302b" category="paragraph">您可以使用 ONTAP 命令配置负载平衡。有关详细信息，请参见 ONTAP 网络文档。</block>
   <block id="cc84e4cd9dea8de50b595a4b3e47bc6b" category="paragraph">您可以使用 ONTAP System Manager 和 ONTAP 命令行界面命令手动移动 LIF 。</block>
-  <block id="50db78f7c6f8311cd52dcb3e51a3b89d" category="paragraph">请参见 <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> 此处显示的组件的问题描述。</block>
   <block id="b043e78bd977739dcd5bdd93a7e424cb" category="summary">"卷阈值"页面可用于为受监控卷配置全局运行状况阈值。您可以为单个卷或全局所有卷设置阈值。在全局配置选项时、所有对象的默认值都将被修改。但是，如果在对象级别更改了默认值，则不会修改全局值。</block>
   <block id="d9f1a0d91cce62f9674c8901adcc0490" category="doc">卷阈值页面</block>
   <block id="4dd7820433162256e257eb1466ae2393" category="paragraph">您可以为以下项设置阈值：容量、卷Snapshot副本、qtree配额、卷增长和索引节点。</block>
@@ -11685,7 +11673,6 @@
   <block id="7b2ca92a0e10c48d7631c9609a6d7067" category="paragraph">将光标悬停在延迟和活动图表上方时，这些图表将显示排名靠前的工作负载的名称。单击图表右侧的工作负载类型菜单，您可以根据工作负载在事件中的角色（包括 _鲨 鱼 _ ， _bulles_ 或 _victims_ ）对这些工作负载进行排序，并显示有关其延迟及其在争用集群组件上的使用情况的详细信息。您可以将实际值与预期值进行比较，以查看工作负载何时超出其预期延迟或使用量范围。请参见 <block ref="9f2938dff180af01fa93d55b4de76b26" category="inline-xref-macro-rx"></block>。</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">按延迟峰值偏差排序时，表中不会显示系统定义的工作负载，因为延迟仅适用于用户定义的工作负载。延迟值非常低的工作负载不会显示在表中。</block>
   <block id="e5ee071b3b431489cbbdfadb0adb789c" category="inline-link-macro">什么是事件</block>
-  <block id="9cd94be50f953ca5b3d67273e067ae6c" category="paragraph">有关动态性能阈值的详细信息、请参见 <block ref="0535bb9dbc4ba4c8dec14b625dcb4a64" category="inline-link-macro-rx"></block>。有关Unified Manager如何对工作负载进行排名并确定排序顺序的信息、请参见 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">图形中的数据显示上次分析事件之前 24 小时的性能统计信息。每个工作负载的实际值和预期值均基于工作负载参与事件的时间。例如，检测到事件后，工作负载可能会参与事件，因此其性能统计信息可能与检测事件时的值不匹配。默认情况下，工作负载按延迟峰值（最高）偏差排序。</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">由于 Unified Manager 最多可保留 30 天的 5 分钟历史性能和事件数据，因此，如果事件超过 30 天，则不会显示任何性能数据。</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">* 工作负载排序列 *</block>
@@ -11693,7 +11680,6 @@
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">显示上次分析期间事件对工作负载延迟的影响。</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">* 组件使用情况列 *</block>
   <block id="b0a053673931b228f989352c64b39510" category="inline-link-macro">工作负载性能测量</block>
-  <block id="7217fed83eafaf5cd5c315f3fae6bdc0" category="paragraph">显示有关处于争用状态的集群组件的工作负载使用情况的详细信息。在图中，实际使用量为蓝线。红色条会突出显示从检测时间到上次分析时间的事件持续时间。有关详细信息，请参见 <block ref="441c1f0640ee23e8a572ef20ebbdc844" category="inline-link-macro-rx"></block>。</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">对于网络组件，由于网络性能统计信息来自集群之外的活动，因此不会显示此列。</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">* 组件使用情况 *</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">显示网络处理，数据处理和聚合组件的利用率历史记录（以百分比表示），或者显示 QoS 策略组组件的活动历史记录（以百分比表示）。不会显示网络或互连组件的图表。您可以指向统计信息以查看特定时间点的使用情况统计信息。</block>
@@ -11818,10 +11804,7 @@
   <block id="baa12b742399c6a3ac8d5e607e65f52f" category="section-title">自定义设置</block>
   <block id="56af56dc038418e1a14eeaf507c69a2d" category="paragraph">启用此功能后、您可以根据ONTAP 环境的具体情况自定义合规性监控设置。这些设置将触发相关的安全事件和管理操作。请按照以下步骤操作：</block>
   <block id="e9820cac1de73e6a858b577124212802" category="list-text">单击*自定义*。此时将显示"Customize Security Dashboard Settings"弹出窗口。</block>
-  <block id="bcb6a2df7b5f2d9c00f84273cf8b97f3" category="inline-link-macro">*集群合规性类别*</block>
-  <block id="dbac0ffb488a528a37ad9c1bdbdfb3fc" category="list-text">要启用或禁用ONTAP 集群的自定义设置、请展开集群的*常规设置*选项。有关用于自定义集群合规性的选项的信息，请参见 <block ref="e4a50398e2a3c53a298bf2d01182ec03" category="inline-link-macro-rx"></block>。</block>
   <block id="1b384d589c8bfd9a5acdde4674d71d8b" category="inline-link-macro">Storage VM 合规性类别</block>
-  <block id="a72c9443e3c07d7b6a6ae97a8e0dddcd" category="list-text">要启用或禁用Storage VM的自定义设置、请展开Storage VM的*常规设置*选项。有关用于自定义 Storage VM 合规性的选项的信息，请参见 <block ref="c983d9b47226bdff11cdd680675802bc" category="inline-link-macro-rx"></block>。</block>
   <block id="a9d3b46efc0c2c9f42d82faeca52f076" category="list-text">您还可以指定是否使用HTTPS传输从ONTAP 发送AutoSupport 消息。</block>
   <block id="4c1327ac7a730c0089806c8663dec639" category="list-text">如果启用身份验证设置、则Unified Manager会为默认ONTAP 管理员用户发出警报。</block>
   <block id="b846d1144d90307e0cfa35b918a98a98" category="doc">未找到用户</block>
@@ -12336,7 +12319,6 @@
   <block id="9d880624261f4ced2ab74566af6f64a3" category="paragraph">用于启用或禁用警报。</block>
   <block id="5cdb12198877fb739ad076fe6760b905" category="paragraph">通过此区域，您可以根据要触发警报的动态规则选择单个资源或对资源进行分组。您可以通过从下拉列表中选择资源类型来搜索资源，也可以指定确切的资源名称来显示特定资源。</block>
   <block id="e5ab2ea3d777f895fc784fa6842acbee" category="paragraph">用于包括要触发警报的资源。您可以指定一个文本字符串，以便对与该字符串匹配的资源进行分组，并选择要包含在警报中的此组。例如，您可以对名称包含 "`vol0` " 字符串的所有卷进行分组。</block>
-  <block id="74dd0c8a01bae4b966aefe5427a532b0" category="paragraph">只有在选择特定资源类型的所有资源时、才会显示排除选项卡、例如 <block ref="0350a5968a3cf533bb7edcb37c899b0b" category="inline-xref-macro-rx"></block> 或 <block ref="72238bf76c964df49e0c21f6a354496b" category="inline-xref-macro-rx"></block>。</block>
   <block id="94c9150606505bd90fdfe39d973bf119" category="paragraph">通过此区域，您可以选择要触发警报的事件。您可以根据特定严重性为事件触发警报，也可以针对一组事件触发警报。</block>
   <block id="03a76b4d3060d632bd26064b59c39af0" category="paragraph">用于选择名称包含指定字符的事件。</block>
   <block id="40bed07985ab2c796628427f46f3a643" category="paragraph">此区域用于指定通知方法和通知频率。</block>
@@ -12730,7 +12712,6 @@
   <block id="20380496f33f2ca66b5997b1caf40295" category="list-text">单击 * 名称 * ，然后输入警报的名称和问题描述。</block>
   <block id="0d461a80709dd3328371663bccc63f4e" category="list-text">单击 * 资源 * ，然后选择 * 包括 * 选项卡。</block>
   <block id="a2349ca3aa3547eac5b8f26aba860408" category="list-text">从下拉列表中选择*卷*、然后输入<block ref="2b0d59c7031769e80c8e5118b6ec7694" prefix=" " category="inline-code"></block> 在*名称包含*字段中、显示名称包含"`vol1`"的卷。</block>
-  <block id="e0667911ce742192fb30ca466b525c43" category="list-text">选择*<block ref="64f00a2ce12e2238805f98ba4ff31dd0" category="inline-xref-macro-rx"></block>*、然后将其移动到*选定资源*区域。</block>
   <block id="712849bad1aaebf5cae779a3be975db3" category="list-text">选择*排除*选项卡、选择*卷*、然后输入<block ref="6b96f04868a15574a98b70cc112af117" prefix=" " category="inline-code"></block> 在*名称包含*字段中、然后单击*添加*。</block>
   <block id="8b52fb8e7a4095e169cb1109673b0758" category="paragraph">这样就不会为SVM"`vs1-dr`上的卷"`vol1`"生成警报。</block>
   <block id="e4f547cf69e9fdc47d2f50b618004d5c" category="list-text">单击 * 事件 * 并选择要应用于卷的一个或多个事件。</block>
@@ -13110,4 +13091,20 @@
   <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph"><block ref="95f8b16a4dbd2fadc67eaff9a5242c74" prefix="" category="inline-code"></block></block>
   <block id="1808b5aaf7bd49816b66667808cd4cc7" category="paragraph"><block ref="b506087ff19db2de96b73b035cc1d174" prefix="" category="inline-code"></block></block>
   <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> 是启动和停止MySQL服务器所需的守护进程程序。</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">您可以下载<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 包含根证书的文件<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 文件和<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> 归档、并将Unified Manager部署为虚拟设备。</block>
+  <block id="299c06148a9e9a56e7af6bec06118cc3" category="list-text">从*可用资源*区域中选择*、&lt;&lt;All Volumes whose name contains 'vol1'&gt; &gt;*、然后将其移动到*选定资源*区域。</block>
+  <block id="e06c4d39deded3fa995441b19249d214" category="list-text">从"Available Resources"区域中选择*\&lt;Resources&gt;*&lt;All Volumes whose name contains 'abc'&gt; 、然后将其移动到"Selected Resources"区域。</block>
+  <block id="b64529f9e389236b9f2566781686af29" category="paragraph">有关动态性能阈值的详细信息、请参见 <block ref="b14b5e4f6cbe4b301154269a772681ba" category="inline-xref-macro-rx"></block>。有关Unified Manager如何对工作负载进行排名并确定排序顺序的信息、请参见 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
+  <block id="96d692837100f5154eb4c4e2945e5eb7" category="paragraph">显示有关处于争用状态的集群组件的工作负载使用情况的详细信息。在图中，实际使用量为蓝线。红色条会突出显示从检测时间到上次分析时间的事件持续时间。有关详细信息，请参见 <block ref="c675c86402e927afb70b1b330e173e9e" category="inline-xref-macro-rx"></block>。</block>
+  <block id="4df85d53bab21b33d7555a708130659f" category="paragraph">只有在选择特定资源类型的所有资源时、才会显示排除选项卡：例如、\&lt;&lt;All Volumes&gt; &gt;或\&lt;&lt;All Volumes whose name contains '_xyz_'&gt; &gt;。</block>
+  <block id="1ca421dc51b9370ab8a0d77fbb5f0ff2" category="paragraph">只有在选择特定资源类型的所有资源时、才会显示排除选项卡、例如、&lt;&lt;&lt;&lt;All Volumes&gt; &gt;或&lt;&lt;&lt;&lt;All Volumes whose name contains '_xyz_'&gt; &gt;。</block>
+  <block id="92a1d0a33c1d664d83111f9738800b21" category="paragraph">有关信息，请参见 <block ref="b3a3a8afaf4baa00c2b403c4f47d8c31" category="inline-link-macro-rx"></block></block>
+  <block id="7bf3920a0e4838ef1c15726dd318a39b" category="paragraph">如果选择资源类别，例如 * +<block ref="3d99572ec2bdf0c3d8dc014395d1fc4b" category="inline-xref-macro-rx"></block>之后，您将收到该类别中所有对象的警报。</block>
+  <block id="3d79c14c218c5cd8ff01696a25ce2486" category="list-text">要启用或禁用ONTAP 集群的自定义设置、请展开集群的*常规设置*选项。有关用于自定义集群合规性的选项的信息，请参见 <block ref="f2eba0b5dc5a68bf8d427384e8126435" category="inline-xref-macro-rx"></block>。</block>
+  <block id="d2c7cc6a0bd65a30dd724b57df36278a" category="list-text">要启用或禁用Storage VM的自定义设置、请展开Storage VM的*常规设置*选项。有关用于自定义 Storage VM 合规性的选项的信息，请参见 <block ref="f7a2215481da607ddb89908bb79db918" category="inline-xref-macro-rx"></block>。</block>
+  <block id="21b27ab0c06b28ac19a0486dc9c2ebef" category="list-text">如果您的系统未连接到Internet、并且您必须手动下载安装所需的软件包、则必须执行第7步_only_。如果您的系统可以访问 Internet ，并且所有所需软件包均可用，请转至步骤 8 。对于未连接到 Internet 或未使用 Red Hat Enterprise Linux 存储库的系统，请执行以下步骤以确定是否缺少任何所需的软件包，然后下载这些软件包：</block>
+  <block id="1179316ec42305c025b11e116990dafc" category="list-text">选择 * +<block ref="0343dc028b8904b58f0fda8322166a90" category="inline-xref-macro-rx"></block>从 "Available Resources" 区域中选择 +* ，然后将其移动到 "Selected Resources" 区域。</block>
+  <block id="a745c95b049f8f0921c2fcc8baec42c6" category="paragraph">完成此更改后，用户必须在 URL 中包含新端口号才能访问 Unified Manager Web UI ，例如 +https://host.company.com:1234+ ， +https://12.13.14.15:1122+ 或 +https://[2001:db8:0:1]:2123+ 。</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下载安装包并安装Unified Manager、以监控数据存储容量、可用性、性能和保护问题并对其进行故障排除。</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下载安装包并在物理或虚拟Red Hat Enterprise Linux或CentOS平台上安装Unified Manager。</block>
 </blocks>

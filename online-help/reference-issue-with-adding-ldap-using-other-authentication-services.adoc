@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* * 问题描述 *
-+
+[role="lead"]
 如果选择其他作为身份验证服务、则用户和groupObjectClass将保留先前选定模板中的值。如果 LDAP 服务器不使用相同的值，则操作可能会失败。
 
 * * 发生原因 *

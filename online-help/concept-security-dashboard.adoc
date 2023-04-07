@@ -27,8 +27,8 @@ summary: '您可以在Active IQ Unified Manager 信息板上启用或禁用"安�
 启用此功能后、您可以根据ONTAP 环境的具体情况自定义合规性监控设置。这些设置将触发相关的安全事件和管理操作。请按照以下步骤操作：
 
 . 单击*自定义*。此时将显示"Customize Security Dashboard Settings"弹出窗口。
-. 要启用或禁用ONTAP 集群的自定义设置、请展开集群的*常规设置*选项。有关用于自定义集群合规性的选项的信息，请参见 link:reference-cluster-compliance-categories.adoc["*集群合规性类别*"]。
-. 要启用或禁用Storage VM的自定义设置、请展开Storage VM的*常规设置*选项。有关用于自定义 Storage VM 合规性的选项的信息，请参见 link:reference-svm-compliance-categories.adoc["Storage VM 合规性类别"]。
+. 要启用或禁用ONTAP 集群的自定义设置、请展开集群的*常规设置*选项。有关用于自定义集群合规性的选项的信息，请参见 xref:reference-cluster-compliance-categories.adoc[集群合规性类别]。
+. 要启用或禁用Storage VM的自定义设置、请展开Storage VM的*常规设置*选项。有关用于自定义 Storage VM 合规性的选项的信息，请参见 xref:reference-svm-compliance-categories.adoc[Storage VM 合规性类别]。
 . 您还可以指定是否使用HTTPS传输从ONTAP 发送AutoSupport 消息。
 . 如果启用身份验证设置、则Unified Manager会为默认ONTAP 管理员用户发出警报。
 

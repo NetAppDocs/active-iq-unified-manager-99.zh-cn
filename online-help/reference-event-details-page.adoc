@@ -32,7 +32,7 @@ summary: 在事件详细信息页面中，您可以查看选定事件的详细�
 对于动态性能事件，此部分显示的图标表示集群的逻辑组件和物理组件。如果某个组件处于争用状态，则其图标会圈出并以红色突出显示。
 
 +
-请参见 link:concept-cluster-components-and-why-they-can-be-in-contention.adoc["集群组件及其可能发生争用的原因"] 此处显示的组件的问题描述。
+请参见 xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[集群组件及其可能发生争用的原因] 此处显示的组件的问题描述。
 
 
 

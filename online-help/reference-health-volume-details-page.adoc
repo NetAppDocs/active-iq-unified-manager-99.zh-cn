@@ -15,9 +15,6 @@ summary: 您可以使用卷 / 运行状况详细信息页面查看有关选定�
 
 您必须具有应用程序管理员或存储管理员角色。
 
-* <<reference-health-volume-details-page,相关组窗格>>
-
-
 
 
 == 命令按钮
