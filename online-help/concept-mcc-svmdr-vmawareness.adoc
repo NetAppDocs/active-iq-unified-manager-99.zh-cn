@@ -30,7 +30,7 @@ xref:concept-managing-and-monitoring-metrocluster-configurations.adoc[管理和�
 
 * 必须在 ONTAP 和 vCenter Server 上完成所需的设置。有关信息，请参见 ONTAP 和 vCenter 文档。
 +
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]
 
 
 
@@ -63,7 +63,7 @@ https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
 有关设置的信息，请参见 ONTAP 和 vCenter Server 文档。
 
 +
-https://docs.netapp.com/ontap-9/index.jsp["ONTAP 9 文档中心"]
+https://["ONTAP 9 文档中心"]
 
 
 

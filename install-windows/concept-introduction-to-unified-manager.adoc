@@ -17,4 +17,4 @@ summary: '通过Active IQ Unified Manager \(以前称为OnCommand 统一管理�
 
 * 相关信息 *
 
-https://mysupport.netapp.com/matrix["NetApp 互操作性表工具"]
+https://["NetApp 互操作性表工具"]

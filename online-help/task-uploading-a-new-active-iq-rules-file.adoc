@@ -25,7 +25,7 @@ Unified Manager 会自动检查新的 Active IQ 规则文件，并在存在较�
 
 == 关于此任务
 
-建议您大约每月下载一次新的规则文件，以确保存储系统受到保护并以最佳方式运行。规则文件位于： http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip[]
+建议您大约每月下载一次新的规则文件，以确保存储系统受到保护并以最佳方式运行。规则文件位于： http://[]
 
 
 

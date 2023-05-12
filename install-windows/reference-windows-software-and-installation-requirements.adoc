@@ -33,7 +33,7 @@ Unified Manager在64位Windows操作系统上支持以下语言：
 
 请注意、Windows Server 2012不受早期版本支持。有关受支持的 Windows 版本的最新完整列表，请参见互操作性表。
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://["mysupport.netapp.com/matrix"]
 
 此服务器应专用于运行 Unified Manager 。服务器上不应安装任何其他应用程序。
 

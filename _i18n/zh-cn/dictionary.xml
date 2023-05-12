@@ -13107,4 +13107,5 @@
   <block id="a745c95b049f8f0921c2fcc8baec42c6" category="paragraph">完成此更改后，用户必须在 URL 中包含新端口号才能访问 Unified Manager Web UI ，例如 +https://host.company.com:1234+ ， +https://12.13.14.15:1122+ 或 +https://[2001:db8:0:1]:2123+ 。</block>
   <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下载安装包并安装Unified Manager、以监控数据存储容量、可用性、性能和保护问题并对其进行故障排除。</block>
   <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下载安装包并在物理或虚拟Red Hat Enterprise Linux或CentOS平台上安装Unified Manager。</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以Windows管理员身份启动PowerShell或命令提示符。</block>
 </blocks>

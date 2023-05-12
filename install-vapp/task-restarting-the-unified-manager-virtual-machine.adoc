@@ -37,4 +37,4 @@ summary: '您可以从维护控制台重新启动Unified Manager虚拟机(VM\)�
 
 * 相关信息 *
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI Cmdlet 参考： Restart-VMGuest"]
+https://["VMware vSphere PowerCLI Cmdlet 参考： Restart-VMGuest"]
