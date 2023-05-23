@@ -15,4 +15,4 @@ summary: '通过Unified Manager、您可以查看正在监控的所有集群上�
 
 有关调整 QoS 设置 ONTAP 的详细信息，请参见 _QoS 9 性能监控高级指南 _ 。
 
-http://["《 ONTAP 9 性能监控高级指南》"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["《 ONTAP 9 性能监控高级指南》"]

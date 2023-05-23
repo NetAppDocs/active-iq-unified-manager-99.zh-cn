@@ -103,7 +103,7 @@ Capacity
 |===
 有关峰值 IOPS 和预期 IOPS 如何帮助在 ONTAP 集群上实现一致的差异化性能的信息，请参见以下知识库文章：
 
-https://["什么是性能预算？"]
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["什么是性能预算？"]
 
 请注意、如果工作负载在前一小时30%的时间内超过预期延迟值、则Unified Manager将生成以下事件之一、以通知您可能存在性能问题描述 ："`已违反性能服务级别策略`定义的工作负载卷延迟阈值"或"已违反性能服务级别策略`定义的`工作负载LUN延迟阈值"。您可能需要分析工作负载，以查看可能导致延迟值增加的原因。
 

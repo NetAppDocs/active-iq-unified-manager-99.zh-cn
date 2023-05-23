@@ -29,7 +29,7 @@ summary: 要安装Unified Manager、必须从NetApp 支持站点 下载Unified M
 
 == 步骤
 
-. 登录到NetApp 支持站点 、然后导航到Unified Manager的*下载*页面： https://["NetApp 支持站点"]
+. 登录到NetApp 支持站点 、然后导航到Unified Manager的*下载*页面： https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支持站点"]
 . 选择所需的 Unified Manager 版本并接受最终用户许可协议（ EULA ）。
 . 下载适用于Linux的Unified Manager安装程序文件并保存 `.zip` 文件到目标系统上的目录。
 +

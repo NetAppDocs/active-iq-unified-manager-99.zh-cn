@@ -85,4 +85,4 @@ Volumes
 
 有关 FabricPool 聚合的详细信息，请参见 _Data ONTAP 9 磁盘和聚合高级指南 _ 。
 
-http://["《 ONTAP 9 磁盘和聚合高级指南》"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html["《 ONTAP 9 磁盘和聚合高级指南》"]

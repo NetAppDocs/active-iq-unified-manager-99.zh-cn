@@ -44,7 +44,7 @@ xref:reference-windows-software-and-installation-requirements.adoc[Windows 软�
 == 步骤
 
 . 使用默认本地管理员帐户登录到 Windows 。
-. 登录到NetApp 支持站点 、然后导航到Unified Manager的*下载*页面： https://["NetApp 支持站点"]
+. 登录到NetApp 支持站点 、然后导航到Unified Manager的*下载*页面： https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支持站点"]
 . 选择所需的 Unified Manager 版本并接受最终用户许可协议（ EULA ）。
 . 将 Unified Manager Windows 安装文件下载到 Windows 系统上的目标目录。
 . 导航到安装文件所在的目录。

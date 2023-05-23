@@ -31,7 +31,7 @@ summary: 您可以将集群添加到 Active IQ Unified Manager 中，以便监�
 * Unified Manager 服务器上必须有足够的空间。如果已占用的空间超过 90% ，则系统将阻止您向服务器添加集群。
 * 您拥有所需的证书。需要两种类型的证书：
 +
-* 服务器证书 * ：用于注册。要添加集群，需要有效的证书。如果服务器证书到期，您应重新生成该证书并重新启动 Unified Manager ，以便重新自动注册服务。有关生成证书的信息，请参见知识库（ KB ）文章： https://["如何在 ONTAP 9 中续订 SSL 证书"]
+* 服务器证书 * ：用于注册。要添加集群，需要有效的证书。如果服务器证书到期，您应重新生成该证书并重新启动 Unified Manager ，以便重新自动注册服务。有关生成证书的信息，请参见知识库（ KB ）文章： https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在 ONTAP 9 中续订 SSL 证书"]
 
 +
 * 客户端证书 * ：用于身份验证。要添加集群，需要有效的证书。您不能将证书已过期的集群添加到 Unified Manager 中，如果客户端证书已过期，则应在添加集群之前重新生成该集群。但是，如果已添加且 Unified Manager 正在使用的集群的此证书到期，则 EMS 消息传送功能将在证书过期后继续运行。您不需要重新生成客户端证书。
