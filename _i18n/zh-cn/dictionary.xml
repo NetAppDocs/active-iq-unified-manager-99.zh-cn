@@ -13002,21 +13002,6 @@
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">快速开始安装 VMware vSphere</block>
   <block id="a63af8d4197dd6c65eaa56176a1f0040" category="sidebar">快速开始安装 Linux</block>
   <block id="b107f1742bfa32d7247ebf557550e2b5" category="sidebar">快速开始安装 Windows</block>
-  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">发行说明</block>
-  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">安装配置 Unified Manager</block>
-  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">在 VMware vSphere 系统上安装升级</block>
-  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">在 Linux 系统上安装升级</block>
-  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">在 Windows 系统上安装升级</block>
-  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">配置 Unified Manager</block>
-  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">性能监控</block>
-  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">性能阈值</block>
-  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">集群性能</block>
-  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS 策略组</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多资源</block>
-  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 视频</block>
-  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 博客</block>
-  <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">最新版本Active IQ Unified Manager 的文档</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">保护和还原数据</block>
   <block id="63c702324d7a2f1acfb2291776c09e62" category="sidebar">管理和监控保护关系(数据保护)</block>
   <block id="b94ff8a5ea0245f4105f7b2ce38eeff6" category="sidebar">监控Storage VM灾难恢复保护关系(数据保护)</block>
@@ -13112,4 +13097,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
+  <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP</block>
+  <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">用于将 Unified Manager 服务器上的时间与外部 NTP 时间服务器同步。（仅限 VMware 系统）</block>
 </blocks>

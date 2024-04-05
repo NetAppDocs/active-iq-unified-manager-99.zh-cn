@@ -161,40 +161,49 @@ LDAPS
 636
  a| 
 用于安全 LDAP 通信。
+
+
+
  a| 
 邮件服务器
-
-
-
  a| 
 SMTP
  a| 
 25.
  a| 
 用于发送警报通知电子邮件。
+
+
+
  a| 
 SNMP 陷阱发送器
-
-
-
  a| 
 SNMPv1 或 SNMPv3
  a| 
 162 UDP
  a| 
 用于发送警报通知 SNMP 陷阱
+
+
+
  a| 
 外部数据提供程序服务器
-
-
-
  a| 
 TCP
  a| 
 2003 年
  a| 
 用于将性能数据发送到外部数据提供程序，例如 Graphite 。
+
+
+
  a| 
 NTP 服务器
+ a| 
+NTP
+ a| 
+123/UDP
+ a| 
+用于将 Unified Manager 服务器上的时间与外部 NTP 时间服务器同步。（仅限 VMware 系统）
 
 |===
