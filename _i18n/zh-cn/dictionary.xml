@@ -2821,7 +2821,6 @@
   <block id="2fb316da76096cad55a3dd4bf16886ad" category="list-text">单击更多图标 <block ref="0e5533af257bb4cee98a9136d3bb1c63" category="inline-image-macro-rx" type="image"></block> 要更改的计划。</block>
   <block id="adff6885d0c25b63e9c076fa5bfe2ac8" category="list-text">您可以更改报告计划的 * 计划名称 * ， * 收件人 * 列表， * 频率 * 和 * 格式 * 。</block>
   <block id="3c089aca469ff81256c133ec51b447ce" category="list-text">完成后，单击复选标记以保存所做的更改。</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">Active IQ Unified Manager ， AIQUM 文档， UM 文档</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">Active IQ Unified Manager 文档</block>
   <block id="38e6765f489199cbac8d654040013a22" category="doc">Linux 安装快速入门说明</block>
   <block id="a165ede2e82fd84f39f81e1ae64211f7" category="list-text">操作系统：基于x86_64架构的Red Hat Enterprise Linux和CentOS 7.x版和8.x版、使用操作系统安装程序的软件选择选项中的"带图形用户界面的服务器"基础环境进行安装</block>
@@ -13100,4 +13099,20 @@
   <block id="5c54cb8f927a6c5a90622e1c7bd0bda5" category="paragraph">NTP</block>
   <block id="4a8598febd97e32d0698051cd71f02fa" category="paragraph">123/UDP</block>
   <block id="cb2a1ba65000d6677f2856e06530ac31" category="paragraph">用于将 Unified Manager 服务器上的时间与外部 NTP 时间服务器同步。（仅限 VMware 系统）</block>
+  <block id="67fde88ecdbd1fc85837595186b984a3" category="sidebar">通过Active IQ Unified Manager (Unified Manager、以前称为OnCommand Unified Manager)、您可以从一个界面监控和管理ONTAP 存储系统的运行状况和性能。本文档库包含9.9版的信息。</block>
+  <block id="bd37abac39311a4e4bf00abc8bea791a" category="sidebar">Active IQ Unified Manager 9.9文档。</block>
+  <block id="5dd03e8d039863e563e049be198c3fd3" category="sidebar">发行说明</block>
+  <block id="828adfb3faf6bb0d6a86602f92d97f36" category="sidebar">安装和配置Unified Manager</block>
+  <block id="e53d36a21edd215027333eb7ea60fbc1" category="sidebar">在VMware vSphere系统上安装和升级</block>
+  <block id="e16bdcc955b9441255836a75b797d710" category="sidebar">在Linux系统上安装和升级</block>
+  <block id="5088a593884b9f5b6d52f0765c1c1554" category="sidebar">在Windows系统上安装和升级</block>
+  <block id="40a3a0e70dc43e9efc5b6e90644739dd" category="sidebar">配置 Unified Manager</block>
+  <block id="d8be01b779b72fb7ad353d45426e7fe3" category="sidebar">性能监控</block>
+  <block id="eb7e776ba84f97e32ca2522829847d83" category="sidebar">性能阈值</block>
+  <block id="e4b3ba4cc2976d5d2c21b446db787620" category="sidebar">集群性能</block>
+  <block id="13b1a36194bc49ac73c5077e1c1f6dd7" category="sidebar">QoS 策略组</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">更多资源</block>
+  <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Unified Manager 视频</block>
+  <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Unified Manager 博客</block>
+  <block id="c0fd3a67a0f9d526734eae8cf8142cb4" category="sidebar">最新版本Active IQ Unified Manager 的文档</block>
 </blocks>
