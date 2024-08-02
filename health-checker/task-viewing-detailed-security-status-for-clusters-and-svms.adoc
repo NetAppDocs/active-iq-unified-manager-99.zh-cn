@@ -30,5 +30,5 @@ summary: '" 安全性 " 页面显示所有集群的高级别安全状态以及�
 ** 每个集群上使用的集群身份验证方法
 
 
-. 请参见 http://www.netapp.com/us/media/tr-4569.pdf["《适用于 ONTAP 9 的 NetApp 安全加固指南》"] 有关如何使所有集群， SVM 和卷符合 NetApp 安全建议的说明。
+. 有关如何使所有集群、SVM和卷符合NetApp安全建议的说明、请参见 https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["《适用于 ONTAP 9 的 NetApp 安全加固指南》"^] 。
 
